@@ -1,9 +1,15 @@
 ---
 additional:
-- template-dockerhub-release
+- template-docker
+- template-github-release
 
 files:
 - '!README.md'
+- '!.gitignore'
+- '!.pre-commit-config.yaml'
+- '!.yamllint'
 - '!.secrets.baseline'
-- '!.github/template-sync.yml'
-- '!Dockerfile'
+- '!.github/pull.yml'
+- '!.github/dependabot.yml'
+- '!.github/workflows/pre-commit-update.yml'
+- '!.github/settings.yml'
