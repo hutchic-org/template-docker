@@ -1,6 +1,7 @@
 ---
 additional:
-- template-dockerhub-release
+- template-docker
+- template-github-release
 
 files:
 - '!README.md'
@@ -12,5 +13,3 @@ files:
 - '!.github/dependabot.yml'
 - '!.github/workflows/pre-commit-update.yml'
 - '!.github/settings.yml'
-- '!.github/template-sync.yml'
-- '!Dockerfile'
